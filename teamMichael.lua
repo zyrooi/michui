@@ -22,7 +22,7 @@ local ToggleGui = getOrCreateGUI("ToggleGUI")
 
 local ToggleButton = Instance.new("ImageButton")
 ToggleButton.Size = UDim2.new(0, 50, 0, 50)
-ToggleButton.Position = UDim2.new(0.5, -24, 0, 0)
+ToggleButton.Position = UDim2.new(0.5, -24, 0, ,-10)
 ToggleButton.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
 ToggleButton.Image = "rbxthumb://type=Asset&id=91683227610697&w=420&h=420"
 ToggleButton.Parent = ToggleGui
@@ -32,7 +32,7 @@ function UILib:CreateWindow(title)
     local ScreenGui = getOrCreateGUI("ExtremeUI")
 
     local Main = Instance.new("Frame")
-    Main.Size = UDim2.new(0, 620, 0, 250)
+    Main.Size = UDim2.new(0, 600, 0, 250)
     Main.Position = UDim2.new(0.5, -290, 0.5, -125)
     Main.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
     Main.BorderSizePixel = 0
