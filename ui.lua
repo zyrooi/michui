@@ -22,7 +22,7 @@ local ToggleGui = getOrCreateGUI("ToggleGUI")
 
 local ToggleButton = Instance.new("ImageButton")
 ToggleButton.Size = UDim2.new(0, 50, 0, 50)
-ToggleButton.Position = UDim2.new(0.5, -24, 0, 10)
+ToggleButton.Position = UDim2.new(0.5, -24, 0, 3)
 ToggleButton.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
 ToggleButton.Image = "rbxthumb://type=Asset&id=91683227610697&w=420&h=420"
 ToggleButton.Parent = ToggleGui
